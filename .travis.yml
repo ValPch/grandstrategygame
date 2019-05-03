@@ -1,5 +1,5 @@
 language: cpp
-before_install: sudo apt-get install cmake
+before_install: sudo apt-get install cmake && sudo apt-get install gcc-4.8
 jobs:
     include:
         - stage: gamelib
