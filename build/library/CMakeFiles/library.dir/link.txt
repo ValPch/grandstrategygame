@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibrary.a  CMakeFiles/library.dir/sources/basic.cpp.o CMakeFiles/library.dir/sources/unit_types.cpp.o CMakeFiles/library.dir/sources/french_units.cpp.o CMakeFiles/library.dir/sources/country.cpp.o CMakeFiles/library.dir/sources/init_france.cpp.o CMakeFiles/library.dir/sources/game.cpp.o
+/usr/bin/ranlib liblibrary.a

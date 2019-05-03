@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/tester.exe.dir/tester/tester.cpp.o CMakeFiles/tester.exe.dir/tester/tests.cpp.o  -o tester.exe library/liblibrary.a 
