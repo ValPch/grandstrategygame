@@ -1,1 +1,13 @@
 language: cpp
+before_install: sudo apt-get install cmake
+jobs:
+    include:
+        - stage: gamelib
+          name: "Game library"
+          script: cd library && mkdir build && cd build && cmake .. && make
+        - stage: tester
+          name: "Tester"
+          script: chmod +x builder.sh && ./builder.sh && ./tester.exe
+stages:
+    - gamelib
+    - tester

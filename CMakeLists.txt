@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.12)
 
 project(tester)
 
-add_compile_options(-std=c++14 -Wall)
+add_compile_options(-std=c++17 -Wall)
 
 set(SOURCES_LIST tester/tester.cpp tester/tests.cpp)
 
